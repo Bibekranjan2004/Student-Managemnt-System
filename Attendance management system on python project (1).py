@@ -1,4 +1,4 @@
-############################################# IMPORTING ################################################
+                                   #### IMPORTING ####
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox as mess
@@ -10,8 +10,7 @@ from PIL import Image
 import pandas as pd
 import datetime
 import time
-
-############################################# FUNCTIONS ################################################
+                                    #### FUNCTIONS ####
 
 def assure_path_exists(path):
     dir = os.path.dirname(path)
